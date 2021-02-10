@@ -1,0 +1,47 @@
+.navigation{
+    background: rgb(24,24,24);
+    background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(34,34,34,1) 100%);
+}
+.navi-bar{
+    position: relative;
+    padding: 30px;
+    padding-left: 10px;
+    background: rgb(24,24,24);
+    background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(34,34,34,1) 100%);
+}
+.navi-bar .logo,
+li{
+    color: white;
+}
+.navi-bar .logo{
+    padding: 5px;
+}
+.navi-bar .logo h2{
+    font-size: 24px;
+}
+.navigation ul{
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+}
+.navigation ul li{
+    padding: 10px;
+}
+.navigation .nav-bg-color{
+    background-color: rgb(24,24,24);
+}
+.navi-bar #hamburger{
+    position: absolute;
+    right: 20px;
+
+    margin-top: 10px;
+    cursor: pointer;
+}
+.navi-bar #hamburger img{
+    width: 25px;
+}
+#hamburger-click{
+    display: none;
+}
+

@@ -1,0 +1,76 @@
+.reading-playlist{
+    color: white;
+    background-color: #181818;
+}
+.reading-playlist:nth-child(3){
+    padding-top: 70px;
+}
+.reading-playlist .image img{
+    width: 100%;
+    visibility: hidden;
+}
+.reading-playlist .reading-header{
+    padding-left: 15px;
+    padding-top: 50px;
+}
+.reading-playlist .reading-header h3{
+    font-size: 22px;
+    font-weight: 700;
+}
+.reading-playlist .reading-header p{
+    color: #ABADA9;
+    font-size: 15px;
+    font-weight: 600;
+}
+.reading-playlist .text-song{
+    padding-top: 20px;
+}
+.reading-playlist .text-song h3{
+    color: #FAFFFB;
+    font-weight: 600;
+    font-size: 20px;
+}
+.reading-playlist .text-song p{
+    color: #ABADA9;
+    font-size: 15px;
+}
+.reading-playlist .cards .buttons{
+    display: flex;
+    border-bottom: 1px solid rgb(92, 92, 92);
+    color: #181818;
+    padding: 10px;
+}
+.reading-playlist .cards .buttons .button-spn i{
+    padding:10px;
+    font-size: 18px;
+    position: relative;
+    left:2px;
+    color: #ff6b29;
+}
+
+.reading-playlist .cards .buttons .next-btn:nth-child(1){
+    transform: scaleX(-1);
+}
+.reading-playlist .cards .buttons .next-btn:nth-child(1):hover{
+    transform: scaleX(-1);
+}
+.reading-playlist .cards .buttons .next-btn:nth-child(3):hover{
+    transform: scale(1);
+}
+.reading-playlist .cards .buttons .button-spn{
+    border: 2px solid rgba(44, 44, 44,0.6);
+    border-radius:100px;
+   
+    margin: 0 auto;
+    cursor: pointer;
+    transition: .2s;
+}
+.reading-playlist .cards .buttons .button-spn:hover{
+    transition: .2s;
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(44, 44, 44,0.6);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(44, 44, 44,0.6);
+    box-shadow: 0px 0px 8px 1px rgba(44, 44, 44,0.6);
+}
+
+

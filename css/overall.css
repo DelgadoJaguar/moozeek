@@ -1,0 +1,29 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;;
+}
+a,
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.position-bg{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60%;
+}
+.line{
+    width: 100%;
+    background-color: #ff6b29;
+    margin: 20px 15px;
+    height: 2px;
+}
+.overlay{
+    transition: .3s;
+    cursor: pointer;
+}
+.overlay:hover{
+    background-color: rgba(0, 0, 0,0.7);
+    transition: .3s;
+    
+}

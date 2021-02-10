@@ -1,0 +1,26 @@
+.mobile-about{
+    padding: 150px 0;
+    color: white;
+    background-color: #181818;
+}
+.mobile-about img{
+    width: 110%;
+}
+.mobile-about .second-mobile-about{
+    padding-top: 100px;
+}
+@media (max-width: 990px){
+    .mobile-about .second-mobile-about{
+        padding-top: 50px;
+    }
+}
+@media (max-width: 758px){
+    .mobile-about img{
+        width: 100%;
+    }
+}
+@media (max-width: 575px){
+    .mobile-about{
+        padding: 100px 0;
+    }
+}
