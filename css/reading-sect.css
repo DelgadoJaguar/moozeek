@@ -34,13 +34,13 @@
     color: #ABADA9;
     font-size: 15px;
 }
-.reading-playlist .cards .buttons{
+.buttons{
     display: flex;
     border-bottom: 1px solid rgb(92, 92, 92);
     color: #181818;
     padding: 10px;
 }
-.reading-playlist .cards .buttons .button-spn i{
+.buttons .button-spn i{
     padding:10px;
     font-size: 18px;
     position: relative;
@@ -48,16 +48,16 @@
     color: #ff6b29;
 }
 
-.reading-playlist .cards .buttons .next-btn:nth-child(1){
+.buttons .next-btn:nth-child(1){
     transform: scaleX(-1);
 }
-.reading-playlist .cards .buttons .next-btn:nth-child(1):hover{
+.buttons .next-btn:nth-child(1):hover{
     transform: scaleX(-1);
 }
-.reading-playlist .cards .buttons .next-btn:nth-child(3):hover{
+.buttons .next-btn:nth-child(3):hover{
     transform: scale(1);
 }
-.reading-playlist .cards .buttons .button-spn{
+.buttons .button-spn{
     border: 2px solid rgba(44, 44, 44,0.6);
     border-radius:100px;
    
@@ -65,7 +65,7 @@
     cursor: pointer;
     transition: .2s;
 }
-.reading-playlist .cards .buttons .button-spn:hover{
+.buttons .button-spn:hover{
     transition: .2s;
     transform: scale(1.05);
     -webkit-box-shadow: 0px 0px 8px 1px rgba(44, 44, 44,0.6);
