@@ -1,0 +1,72 @@
+.music-player{
+    color: white;
+    background-color: #181818;
+    padding: 100px 0;
+}
+.music-player .song{
+    border-bottom: 1px solid rgba(44, 44, 44,0.6);
+    transition: .3s;
+}
+.music-player .song:hover{
+    transform: scale(1.05);
+    transition: .3s;
+}
+.song-info .buttons{
+    padding-top: 35px;
+}
+.song-info .image-info img{
+    visibility: hidden;
+}
+.song-info .image-info {
+    background-image: url('../media/images/lo-fi.jpg');
+}
+.song-info .position-bg{
+    height: 100%;
+}
+/* For all songs */
+.music-player .song-info img{
+    width: 100%;
+}
+.music-player .image img{
+   width: 100%;
+   border-radius: 100px;
+   padding: 10px;
+}
+.music-player .song-text{
+    padding-top: 10px;
+}
+/* Buttons */
+.play-btn{
+    padding: 20%;
+}
+.play-btn i{
+    padding:18px;
+    font-size: 20px;
+    color: #ff6b29;
+    
+    border: 2px solid rgba(44, 44, 44,0.6);
+    border-radius:100px;
+   
+    margin: 0 auto;
+    cursor: pointer;
+}
+@media (max-width: 768px){
+    .music-player .song:hover{
+        transform: scale(1);
+    }
+}
+@media (max-width: 575px){
+    .music-player .image img{
+        padding: 5px;
+     }
+    .play-btn i{
+        padding:30%;
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 375px){
+    .music-player .image img{
+        margin-top: 5px;
+     }
+}
