@@ -1,0 +1,11 @@
+.contact-hero{
+    background-color: #181818;
+    padding: 150px 0;
+}
+
+.contact-hero .contact-image img{
+    width: 100%;
+}
+.contact-hero .contact-text{
+    color: #Ffffff;
+}
